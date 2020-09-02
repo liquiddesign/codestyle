@@ -1,0 +1,20 @@
+{
+  "name": "liquiddesign/codestyle",
+  "description": "Code style for Liquid Design s.r.o.",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "LqdCodingStandard\\": "LqdCodingStandard"
+    }
+  },
+  "require": {
+    "php": ">=7.3.0",
+    "squizlabs/php_codesniffer": "~3.0",
+    "slevomat/coding-standard": "~6.0"
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "git config --global core.hooksPath .hooksK"
+    ]
+  }
+}
