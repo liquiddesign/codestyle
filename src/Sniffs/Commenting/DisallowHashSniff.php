@@ -1,6 +1,6 @@
 <?php
 
-namespace LqdCodingStandard\Sniffs\Commenting;
+namespace LqdCodeStyle\Sniffs\Commenting;
 
 use PHP_CodeSniffer\Sniffs\Sniff;
 

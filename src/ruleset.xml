@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="LqdCS">
+<ruleset name="LqdCodeStyle">
     <arg name="tab-width" value="4"/>
     <rule ref="PSR2">
         <exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
@@ -26,11 +26,11 @@
     <rule ref="Squiz.NamingConventions.ValidVariableName.PrivateNoUnderscore">
         <severity>0</severity>
     </rule>
-    <rule ref="LqdCodingStandard.Commenting.DisallowHash"/>
-    <rule ref="LqdCodingStandard.Classes.InterfaceNaming"/>
-    <rule ref="LqdCodingStandard.Classes.TraitNaming"/>
-    <rule ref="LqdCodingStandard.Functions.UnusedParameter"/>
-    <rule ref="LqdCodingStandard.ControlStructures.BlockControlStructureSpacing"/>
+    <rule ref="LqdCodeStyle.Commenting.DisallowHash"/>
+    <rule ref="LqdCodeStyle.Classes.InterfaceNaming"/>
+    <rule ref="LqdCodeStyle.Classes.TraitNaming"/>
+    <rule ref="LqdCodeStyle.Functions.UnusedParameter"/>
+    <rule ref="LqdCodeStyle.ControlStructures.BlockControlStructureSpacing"/>
     <config name="installed_paths" value="../../slevomat/coding-standard"/>
     <rule ref="SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation"/>
     <rule ref="SlevomatCodingStandard.Arrays.MultiLineArrayEndBracketPlacement"/>

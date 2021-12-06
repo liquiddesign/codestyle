@@ -1,6 +1,6 @@
 <?php
 
-namespace LqdCodingStandard\Sniffs\ControlStructures;
+namespace LqdCodeStyle\Sniffs\ControlStructures;
 
 use PHP_CodeSniffer\Sniffs\Sniff;
 

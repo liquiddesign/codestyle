@@ -1,6 +1,6 @@
 <?php
 
-namespace LqdCodingStandard\Sniffs\Functions;
+namespace LqdCodeStyle\Sniffs\Functions;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\Sniff;

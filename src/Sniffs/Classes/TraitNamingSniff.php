@@ -1,12 +1,12 @@
 <?php
 
-namespace LqdCodingStandard\Sniffs\Classes;
+namespace LqdCodeStyle\Sniffs\Classes;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\Sniff;
 use SlevomatCodingStandard\Helpers\ClassHelper;
 
-class InterfaceNamingSniff implements Sniff
+class TraitNamingSniff implements Sniff
 {
 	/**
 	 * @return int[]
@@ -14,7 +14,7 @@ class InterfaceNamingSniff implements Sniff
 	public function register(): array
 	{
 		return [
-			\T_INTERFACE,
+			\T_TRAIT,
 		];
 	}
 	
@@ -29,12 +29,12 @@ class InterfaceNamingSniff implements Sniff
 	
 	private function checkSuffix(File $phpcsFile, int $traitPointer, string $traitName): void
 	{
-		$suffix = \substr($traitName, 0, 1);
+		$suffix = \substr($traitName, -5);
 		
-		if ($suffix === 'I') {
+		if (\strtolower($suffix) === 'trait') {
 			return;
 		}
 		
-		$phpcsFile->addError('Missing prefix "I".', $traitPointer, 'Found');
+		$phpcsFile->addError('Missing suffix "Trait".', $traitPointer, 'test');
 	}
 }
