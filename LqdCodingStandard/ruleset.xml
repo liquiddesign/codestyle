@@ -3,7 +3,11 @@
     <arg name="tab-width" value="4"/>
     <rule ref="PSR2">
         <exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
-        <exclude name="Generic.Files.LineEndings.InvalidEOLChar"/>
+    </rule>
+    <rule ref="Generic.Files.LineEndings">
+        <properties>
+            <property name="eolChar" value="\r\n"/>
+        </properties>
     </rule>
     <rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
     <rule ref="Generic.WhiteSpace.ScopeIndent">

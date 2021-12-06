@@ -1,6 +1,6 @@
 {
   "name": "liquiddesign/codestyle",
-  "description": "Code style for Liquid Design s.r.o.",
+  "description": "Code Style pro Liquid Design",
   "license": "MIT",
   "autoload": {
     "psr-4": {
