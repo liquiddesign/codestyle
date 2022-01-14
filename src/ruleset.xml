@@ -33,7 +33,11 @@
             </property>
         </properties>
     </rule>
-    <rule ref="Squiz.WhiteSpace.OperatorSpacing"/>
+    <rule ref="Squiz.WhiteSpace.OperatorSpacing">
+        <properties>
+            <property name="ignoreNewlines" value="true" />
+        </properties>
+    </rule>
     <rule ref="Squiz.NamingConventions.ValidVariableName"/>
     <rule ref="Squiz.NamingConventions.ValidVariableName.PrivateNoUnderscore">
         <severity>0</severity>
