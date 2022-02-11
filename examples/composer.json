@@ -5,6 +5,9 @@
   "autoload": {
     "psr-4": {"Namespace\\": "rootPath/"}
   },
+  "autoload-dev": {
+    "psr-4": { "Namespace\\Tests\\": "tests/" }
+  },
   "require-dev":
   {
     "nette/tester":"^2.0",
