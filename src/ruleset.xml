@@ -30,6 +30,25 @@
                 <element key="copy" value="Nette\\FileSystem::copy"/>
                 <element key="unlink" value="Nette\\FileSystem::delete"/>
                 <element key="rmdir" value="Nette\\FileSystem::delete"/>
+                <element key="strpos" value="Nette\\Utils\\Strings::contains"/>
+                <element key="substr" value="Nette\\Utils\\Strings::substring"/>
+                <element key="strtolower" value="Nette\\Utils\\Strings::lower"/>
+                <element key="strtoupper" value="Nette\\Utils\\Strings::upper"/>
+                <element key="str_pad" value="Nette\\Utils\\Strings::padRight"/>
+                <element key="strpos" value="Nette\\Utils\\Strings::pos"/>
+                <element key="strtotime" value="Carbon\\Carbon::parse"/>
+                <element key="date" value="Carbon\\Carbon::now"/>
+                <element key="dump" value="Tracy\\Debugger::log"/>
+                <element key="bdump" value="Tracy\\Debugger::log"/>
+                <element key="var_dump" value="Tracy\\Debugger::log"/>
+            </property>
+        </properties>
+    </rule>
+    <rule ref="SlevomatCodingStandard.PHP.ForbiddenClasses">
+        <properties>
+            <property name="forbiddenClasses" type="array">
+                <element key="DateTime" value="Carbon\\Carbon"/>
+                <element key="Nette\\Helpers\\DateTime" value="Carbon\\Carbon"/>
             </property>
         </properties>
     </rule>
@@ -156,7 +175,6 @@
     <rule ref="SlevomatCodingStandard.Operators.RequireCombinedAssignmentOperator"/>
     <rule ref="SlevomatCodingStandard.Operators.SpreadOperatorSpacing"/>
     <rule ref="SlevomatCodingStandard.PHP.DisallowDirectMagicInvokeCall"/>
-    <rule ref="SlevomatCodingStandard.PHP.ForbiddenClasses"/>
     <rule ref="SlevomatCodingStandard.PHP.OptimizedFunctionsWithoutUnpacking"/>
     <rule ref="SlevomatCodingStandard.PHP.ReferenceSpacing"/>
     <rule ref="SlevomatCodingStandard.PHP.RequireNowdoc"/>
@@ -177,6 +195,8 @@
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing"/>
     <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint"/>
     <rule ref="SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable"/>
     <rule ref="SlevomatCodingStandard.Variables.DuplicateAssignmentToVariable"/>
     <rule ref="SlevomatCodingStandard.Variables.UnusedVariable"/>
