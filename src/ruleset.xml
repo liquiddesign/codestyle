@@ -36,8 +36,9 @@
                 <element key="strtoupper" value="Nette\Utils\Strings::upper"/>
                 <element key="ucfirst" value="Nette\Utils\Strings::firstUpper"/>
                 <element key="lcfirst" value="Nette\Utils\Strings::firstLower"/>
-                <element key="str_pad" value="Nette\Utils\Strings::padRight"/>
+                <element key="str_pad" value="Nette\Utils\Strings::padRight|Nette\Utils\Strings::padLeft"/>
                 <element key="strpos" value="Nette\Utils\Strings::contains"/>
+                <element key="str_replace" value="Nette\Utils\Strings::replace"/>
                 <element key="strtotime" value="Carbon\Carbon::parse"/>
                 <element key="date" value="Carbon\Carbon::now"/>
                 <element key="dump" value="Tracy\Debugger::log"/>
