@@ -34,6 +34,8 @@
                 <element key="substr" value="Nette\Utils\Strings::substring"/>
                 <element key="strtolower" value="Nette\Utils\Strings::lower"/>
                 <element key="strtoupper" value="Nette\Utils\Strings::upper"/>
+                <element key="ucfirst" value="Nette\Utils\Strings::firstUpper"/>
+                <element key="lcfirst" value="Nette\Utils\Strings::firstLower"/>
                 <element key="str_pad" value="Nette\Utils\Strings::padRight"/>
                 <element key="strpos" value="Nette\Utils\Strings::contains"/>
                 <element key="strtotime" value="Carbon\Carbon::parse"/>
