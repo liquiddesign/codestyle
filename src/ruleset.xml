@@ -32,6 +32,7 @@
                 <element key="rmdir" value="Nette\FileSystem::delete"/>
                 <element key="strpos" value="Nette\Utils\Strings::contains|Nette\Utils\Strings::indexOf"/>
                 <element key="substr" value="Nette\Utils\Strings::substring"/>
+                <element key="strlen" value="Nette\Utils\Strings::length"/>
                 <element key="strtolower" value="Nette\Utils\Strings::lower"/>
                 <element key="strtoupper" value="Nette\Utils\Strings::upper"/>
                 <element key="ucfirst" value="Nette\Utils\Strings::firstUpper"/>
