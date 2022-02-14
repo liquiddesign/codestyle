@@ -52,8 +52,8 @@
     <rule ref="SlevomatCodingStandard.PHP.ForbiddenClasses">
         <properties>
             <property name="forbiddenClasses" type="array">
-                <element key="DateTime" value="Carbon\\Carbon"/>
-                <element key="Nette\Utils\DateTime" value="Carbon\\Carbon"/>
+                <element key="DateTime" value="Carbon\Carbon"/>
+                <element key="Nette\Utils\DateTime" value="Carbon\Carbon"/>
             </property>
         </properties>
     </rule>
