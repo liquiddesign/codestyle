@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <ruleset name="LqdCS">
+    <rule ref="ruleset.xml"/>
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="newlinesCountBetweenOpenTagAndDeclare" type="int" value="2"/>
