@@ -49,6 +49,7 @@
                 <element key="strpos" value="Nette\Utils\Strings::contains"/>
                 <element key="str_replace" value="Nette\Utils\Strings::replace"/>
                 <element key="trim" value="Nette\Utils\Strings::trim"/>
+                <element key="in_array" value="Nette\Utils\Arrays::contains"/>
                 <element key="strtotime" value="Carbon\Carbon::parse"/>
                 <element key="date" value="Carbon\Carbon::now"/>
                 <element key="dump" value="Tracy\Debugger::log"/>
