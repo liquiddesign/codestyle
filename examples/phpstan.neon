@@ -1,0 +1,32 @@
+parameters:
+	universalObjectCratesClasses:
+		- Nette\Application\UI\Template
+	level: 8
+	paths:
+		- app
+	excludePaths:
+		- config/*
+		- templates/*
+	fileExtensions:
+		- php
+services:
+	-
+		class: StORM\Bridges\PhpStan\OneReturnType
+		tags:
+			- phpstan.broker.dynamicMethodReturnTypeExtension
+	-
+		class: StORM\Bridges\PhpStan\FirstReturnType
+		tags:
+			- phpstan.broker.dynamicMethodReturnTypeExtension
+	-
+		class: StORM\Bridges\PhpStan\FindRepositoryReturnType
+		tags:
+			- phpstan.broker.dynamicMethodReturnTypeExtension
+	-
+		class: StORM\Bridges\PhpStan\OneThrowType
+		tags:
+			- phpstan.broker.dynamicMethodThrowTypeExtension
+	-
+		class: StORM\Bridges\PhpStan\FirstThrowType
+		tags:
+			- phpstan.broker.dynamicMethodThrowTypeExtension
