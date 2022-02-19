@@ -58,6 +58,7 @@
             </property>
         </properties>
     </rule>
+    <rule ref="Generic.PHP.DisallowShortOpenTag"/>
     <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag"/>
     <rule ref="Generic.PHP.LowerCaseType"/>
     <rule ref="Generic.PHP.NoSilencedErrors"/>
