@@ -112,7 +112,14 @@
     <rule ref="SlevomatCodingStandard.Classes.MethodSpacing"/>
     <rule ref="SlevomatCodingStandard.Classes.ModernClassNameReference"/>
     <rule ref="SlevomatCodingStandard.Classes.ParentCallSpacing"/>
-    <rule ref="SlevomatCodingStandard.Classes.PropertySpacing"/>
+    <rule ref="SlevomatCodingStandard.Classes.PropertySpacing">
+        <properties>
+            <property name="minLinesCountBeforeWithComment" type="int" value="1"/>
+            <property name="maxLinesCountBeforeWithComment" type="int" value="1"/>
+            <property name="minLinesCountBeforeWithoutComment" type="int" value="1"/>
+            <property name="maxLinesCountBeforeWithoutComment" type="int" value="1"/>
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.Classes.RequireSingleLineMethodSignature"/>
     <rule ref="SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming"/>
     <rule ref="SlevomatCodingStandard.Classes.TraitUseDeclaration"/>
