@@ -11,9 +11,9 @@
     "nesbot/carbon": "DateTime class with many features"
   },
   "require": {
-    "php": ">=7.3.0",
+    "php": ">=8.1.0",
     "squizlabs/php_codesniffer": "~3.0",
-    "slevomat/coding-standard": "~6.0"
+    "slevomat/coding-standard": "~8.0"
   },
   "config": {
     "allow-plugins": {

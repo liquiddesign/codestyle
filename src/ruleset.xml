@@ -90,7 +90,6 @@
         <severity>0</severity>
     </rule>
     <rule ref="src.Commenting.DisallowHash"/>
-    <rule ref="src.Classes.InterfaceNaming"/>
     <rule ref="src.Classes.TraitNaming"/>
     <rule ref="src.Functions.UnusedParameter"/>
     <rule ref="src.ControlStructures.BlockControlStructureSpacing"/>
