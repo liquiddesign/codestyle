@@ -150,7 +150,18 @@
             <property name="ignoreStandaloneIfInScope" type="bool" value="1"/>
         </properties>
     </rule>
-    <rule ref="SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing">
+        <properties>
+            <property name="allowSingleLineYieldStacking" type="boolean" value="false" />
+            <property name="linesCountBefore" type="integer" value="1" />
+            <property name="linesCountBeforeFirst" type="integer" value="0" />
+            <property name="linesCountBeforeWhenFirstInCaseOrDefault" type="integer" value="0" />
+            <property name="linesCountAfter" type="integer" value="1" />
+            <property name="linesCountAfterLast" type="integer" value="0" />
+            <property name="linesCountAfterWhenLastInCaseOrDefault" type="integer" value="1" />
+            <property name="linesCountAfterWhenLastInLastCaseOrDefault" type="integer" value="0" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.NewWithParentheses"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceEqualOperator"/>
