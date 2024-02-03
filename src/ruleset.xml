@@ -84,7 +84,6 @@
             <property name="linesCountAfterLastUseWhenLastInClass" type="int" value="0"/>
         </properties>
     </rule>
-    <rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements"/>
     <rule ref="SlevomatCodingStandard.Classes.UselessLateStaticBinding"/>
     <rule ref="SlevomatCodingStandard.Commenting.DisallowCommentAfterCode"/>
     <rule ref="SlevomatCodingStandard.Commenting.DocCommentSpacing">
@@ -143,12 +142,10 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Functions.DisallowEmptyFunction"/>
-    <rule ref="SlevomatCodingStandard.Functions.TrailingCommaInCall"/>
     <rule ref="SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure"/>
     <rule ref="SlevomatCodingStandard.Functions.UselessParameterDefaultValue"/>
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
     <rule ref="SlevomatCodingStandard.Namespaces.DisallowGroupUse"/>
-    <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameAfterKeyword"/>
     <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation"/>
     <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants"/>
     <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions"/>
