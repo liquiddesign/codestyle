@@ -14,4 +14,4 @@ if ($isValid) {
 	echo "Conventional commits in last commit: ERR";
 }
 
-exit($isValid !== false ? 0 : 1);
+exit($isValid ? 0 : 1);
