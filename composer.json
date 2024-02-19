@@ -20,8 +20,5 @@
     "allow-plugins": {
       "dealerdirect/phpcodesniffer-composer-installer": true
     }
-  },
-  "scripts": {
-    "changelog": "conventional-changelog --config=./src/changelog/changelog-config.php"
   }
 }
