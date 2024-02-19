@@ -1,6 +1,9 @@
 <?php
 
-// Načtení zprávy z posledního commitu
+/* @TODO
+ * if you use conventional changelog, real commits are hidden with release commit
+ * modify script to check all commits between two tags
+*/
 $commitMessage = \shell_exec('git log -1 --format=%B');
 
 $loweredMessage = \strtolower($commitMessage);
