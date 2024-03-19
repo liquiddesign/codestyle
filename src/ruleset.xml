@@ -125,7 +125,7 @@
     <rule ref="SlevomatCodingStandard.Classes.TraitUseSpacing">
         <properties>
             <property name="linesCountBeforeFirstUse" type="int" value="0"/>
-            <property name="linesCountAfterLastUse" type="int" value="0"/>
+            <property name="linesCountAfterLastUse" type="int" value="1"/>
             <property name="linesCountAfterLastUseWhenLastInClass" type="int" value="0"/>
         </properties>
     </rule>
