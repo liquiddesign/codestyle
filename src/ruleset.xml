@@ -54,6 +54,7 @@
                 <element key="dump" value="Tracy\Debugger::log"/>
                 <element key="bdump" value="Tracy\Debugger::log"/>
                 <element key="var_dump" value="Tracy\Debugger::log"/>
+                <element key="xdebug_break" value="null"/>
             </property>
         </properties>
     </rule>
