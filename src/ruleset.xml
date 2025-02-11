@@ -9,6 +9,9 @@
             <property name="eolChar" value="\r\n"/>
         </properties>
     </rule>
+    <rule ref="Generic.Files.LineEndings.InvalidEOLChar">
+        <severity>0</severity>
+    </rule>
     <rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
     <rule ref="Generic.WhiteSpace.SpreadOperatorSpacingAfter"/>
     <rule ref="Generic.Formatting.SpaceAfterCast"/>
