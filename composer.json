@@ -1,6 +1,7 @@
 {
   "name": "liquiddesign/codestyle",
   "description": "Code Style pro Liquid Design",
+  "type": "phpcodesniffer-standard",
   "license": "MIT",
   "autoload": {
     "psr-4": {
